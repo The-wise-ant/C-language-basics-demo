@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/*
+This program simulates a basic PIN (Personal Identification Number) authentication system. 
+It prompts the user to input a 4-digit PIN number. 
+If the entered PIN does not match the predefined PIN (1234 in this case), 
+it displays a message indicating that the PIN is incorrect and prompts the user to retry. 
+This process continues until the correct PIN is entered. Once the correct PIN is entered, 
+it displays a welcome message and terminates.
+*/
+
 int main()
 {
 
